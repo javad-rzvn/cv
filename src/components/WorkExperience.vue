@@ -20,7 +20,7 @@
                             </li>
                         </ul>
                     </h3>
-                    <div class="text-sm text-gray-500">{{ date }}</div>
+                    <div class="text-sm text-gray-500 font-mono">{{ date }}</div>
                 </div>
                 <h4 class="font-mono text-sm font-semibold">{{position}}</h4>
             </div>

@@ -1,0 +1,34 @@
+[
+    {
+        "id": "project1",
+        "title": "Project One",
+        "status": "Online",
+        "description": "Description of Project One",
+        "tags": ["Node.js", "FastAPI"],
+        "markdown": "projects/project1.md"
+    },
+    {
+        "id": "project2",
+        "title": "Project Two",
+        "status": "Offline",
+        "description": "Description of Project Two",
+        "tags": ["Python", "Bootstrap"],
+        "markdown": "projects/project2.md"
+    },
+    {
+        "id": "project3",
+        "title": "Project Three",
+        "status": "Archived",
+        "description": "Description of Project Three",
+        "tags": ["Python", "Bootstrap"],
+        "markdown": "projects/project3.md"
+    },
+    {
+        "id": "project4",
+        "title": "Project Four",
+        "status": "Archived",
+        "description": "Description of Project Four",
+        "tags": ["PowerBI"],
+        "markdown": "projects/project4.md"
+    }
+]

@@ -6,7 +6,7 @@
                     <h3 class="inline-flex items-center justify-center gap-x-1 font-semibold">
                         {{ title }}
                     </h3>
-                    <div class="text-sm text-gray-500">{{ date }}</div>
+                    <div class="text-sm text-gray-500 font-mono">{{ date }}</div>
                 </div>
             </div>
             <div class="font-mono text-sm">

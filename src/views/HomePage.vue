@@ -49,7 +49,7 @@
 
     <section class="flex min-h-0 flex-col gap-y-3">
       <h2 class="text-xl font-bold">Research & Contributions</h2>
-      <Research limitedNum=5 />
+      <Research :limitedNum="5" />
     </section>
 
     <Divider />

@@ -37,7 +37,7 @@
       </Dialog>
 
       <div class="fixed bottom-0 w-full left-0 mx-auto bg-gradient-to-r from-gray-50 via-gray-100 to-gray-50
-        text-center text-sm py-1 z-999 text-gray-500">
+        text-center text-sm py-1 z-999 text-gray-500 m-0">
         <span>Press <Tag severity="secondary" value="Ctrl + J" style="font-size: 11px;background-color: oklch(86.9% 0.022 252.894);"></Tag> to open the command
           menu</span>
       </div>

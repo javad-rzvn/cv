@@ -34,8 +34,9 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue';
+import { ref, onMounted, watch, computed } from 'vue';
 import { useRoute } from 'vue-router';
+import { useHead } from '@unhead/vue';
 import projects from '../projects.json';
 import { marked } from 'marked';
 import Divider from 'primevue/divider';
@@ -66,6 +67,15 @@ onMounted(async () => {
         }
     } else {
         projectContent.value = '<p style="color: red;">Project not found.</p>';
-    }
+    };
 });
+
+// Computed property to access the title
+const pageTitle = computed(() => {
+    return project.value ? `Mohammad Javad Rezvanpour - Project: ${project.value.title}` : 'Loading...';
+});
+useHead({
+    title: pageTitle,
+    //   meta: [{ name: 'description', content: computed(() => `Description for ${title.value}`) }]
+})
 </script>

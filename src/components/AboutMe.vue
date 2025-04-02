@@ -1,7 +1,7 @@
 <template>
     <div class="flex-1 space-y-1.5">
-        <h1 class="text-2xl font-extrabold" v-if="isHome">Mohammad Javad Rezvanpoor</h1>
-        <h2 class="text-xl font-extrabold" v-else>Mohammad Javad Rezvanpoor</h2>
+        <h1 class="text-2xl font-extrabold" v-if="isHome">Mohammad Javad Rezvanpour</h1>
+        <h2 class="text-xl font-extrabold" v-else>Mohammad Javad Rezvanpour</h2>
         <p class="max-w-md text-sm font-light font-mono">Hydroinformatics Specialist <br> Data Scientist (GIS &
             Hydrology Focus)</p>
         <p class="max-w-md text-xs font-light font-mono">Iran, Mashhad</p>

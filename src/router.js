@@ -12,4 +12,11 @@ const router = createRouter({
     routes,
 });
 
+// Update title based on route meta
+router.beforeEach((to, from, next) => {
+    const title = to.meta.title || 'Default Title'; // Default title if not defined
+    document.title = title;
+    next();
+  });
+
 export default router;

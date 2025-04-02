@@ -1,34 +1,260 @@
 [
     {
-        "id": "project1",
-        "title": "Project One",
-        "status": "Online",
-        "description": "Description of Project One",
-        "tags": ["Node.js", "FastAPI"],
-        "markdown": "projects/project1.md"
-    },
-    {
-        "id": "project2",
-        "title": "Project Two",
+        "id": "tehran-regional-water-observatory",
+        "title": "Tehran Regional Water Observatory",
         "status": "Offline",
-        "description": "Description of Project Two",
-        "tags": ["Python", "Bootstrap"],
-        "markdown": "projects/project2.md"
+        "description": "Design, Development, and Programming of Business Intelligence Dashboards for the Tehran Regional Water Observatory",
+        "tags": [
+            "Power BI",
+            "SQlite",
+            "Python",
+            "Data Processing",
+            "ETL"
+        ],
+        "isFeatured": true
     },
     {
-        "id": "project3",
-        "title": "Project Three",
-        "status": "Archived",
-        "description": "Description of Project Three",
-        "tags": ["Python", "Bootstrap"],
-        "markdown": "projects/project3.md"
+        "id": "khz-water-power-observatory",
+        "title": "Khuzestan Water and Power Organization",
+        "status": "Offline",
+        "description": "Programming and Development of multiple Scrapers and Load Testing Script for Business Intelligence Dashboards of Khuzestan Water and Power Organization",
+        "tags": [
+            "Power BI",
+            "Python",
+            "SQL Server",
+            "Load Testing",
+            "Scraping"
+        ],
+        "isFeatured": true
     },
     {
-        "id": "project4",
-        "title": "Project Four",
+        "id": "web-based-bilan",
+        "title": "Web-Based Water Balance System",
+        "status": "Offline",
+        "description": "Development of a Web-Based Water Balance Calculation System - Qara Qum Basin – Khorasan Razavi Regional Water Company",
+        "tags": [
+            "Python",
+            "GeoPandas",
+            "Pandas",
+            "Rasterio",
+            "GIS-based Processing",
+            "Raster Processing"
+        ],
+        "isFeatured": true
+    },
+    {
+        "id": "hydrological-data-processing",
+        "title": "Hydrological Data Processing System",
+        "status": "Offline",
+        "description": "Development of a Hydrological Data Processing System, including data uploading, time series creation, reporting, challenge extraction, numerical reconstruction, and ultimately performing various statistical tests.",
+        "tags": [
+            "Python",
+            "FastAPI",
+            "MySQL",
+            "Bootstrap",
+            "JavaScript"
+        ],
+        "isFeatured": true
+    },
+    {
+        "id": "closed-channels-flow-measurement",
+        "title": "Flow Measurement Application for Closed Channels",
+        "status": "Offline",
+        "description": "Development of a Flow Measurement Application for Closed Channels Using Images",
+        "tags": [
+            "OpenCV",
+            "Computer Vision",
+            "JavaScript"
+        ],
+        "isFeatured": true
+    },
+    {
+        "id": "river-flow-measurement",
+        "title": "River Flow Measurement Application",
+        "status": "Offline",
+        "description": "Development of a River Flow Measurement Application Using Image Processing",
+        "tags": [
+            "Computer Vision",
+            "Python"
+        ],
+        "isFeatured": true
+    },
+    {
+        "id": "cp14",
+        "title": "Website of Benaafarinan Engineering Group",
+        "date": "1401",
         "status": "Archived",
-        "description": "Description of Project Four",
-        "tags": ["PowerBI"],
-        "markdown": "projects/project4.md"
+        "description": "Client: Hadi Ghanbari",
+        "tags": [
+            "Wordpress",
+            "Custom Theme"
+        ],
+        "isFeatured": false
+    },
+    {
+        "id": "cp13",
+        "title": "Sanjesh Zadbom and East Climate Consulting Engineering Company",
+        "date": "1400",
+        "status": "Archived",
+        "url": "https://sazeshco.ir",
+        "description": "Client: Ali Asadi",
+        "tags": [
+            "Wordpress",
+            "Custom Theme"
+        ],
+        "isFeatured": false
+    },
+    {
+        "id": "cp12",
+        "title": "Hamyaran Ab",
+        "date": "1399",
+        "status": "Archived",
+        "url": "https://khrwc.um.ac.ir/",
+        "description": "Client: Dr. Kamran Davary",
+        "tags": [
+            "Technical Support"
+        ],
+        "isFeatured": false
+    },
+    {
+        "id": "cp11",
+        "title": "Development of the Online Information System for the Conference - National Water Event of Mashhad 2020",
+        "date": "1399",
+        "status": "Archived",
+        "description": "Client: Water Group, Faculty of Agriculture, Ferdowsi University of Mashhad",
+        "tags": [
+            "Wordpress"
+        ],
+        "isFeatured": false
+    },
+    {
+        "id": "cp10",
+        "title": "Website of National Water Event of Mashhad 2020",
+        "date": "1399",
+        "status": "Archived",
+        "url": "https://nwlsm.ir",
+        "description": "Client: Water Group, Faculty of Agriculture, Ferdowsi University of Mashhad",
+        "tags": [
+            "Wordpress",
+            "Custom Theme",
+            "Custom Features",
+            "SEO"
+        ],
+        "isFeatured": false
+    },
+    {
+        "id": "cp9",
+        "title": "Milad Yazdanpour's Academy",
+        "date": "1399",
+        "status": "Archived",
+        "description": "Client: Milad Yazdanpour",
+        "tags": [
+            "Wordpress",
+            "Custom Theme",
+            "Custom Features",
+            "Optimization",
+            "SEO"
+        ],
+        "isFeatured": false
+    },
+    {
+        "id": "cp8",
+        "title": "Design of a Central Control System Capacity Calculation System (Filtration)",
+        "date": "1399",
+        "status": "Archived",
+        "description": "Client: Ram Ghatreh | Ali Rahmati",
+        "tags": [
+            "Wordpress",
+            "JavaScript"
+        ],
+        "isFeatured": false
+    },
+    {
+        "id": "cp7",
+        "title": "Design of a Pipe Weight and Price Calculation System",
+        "date": "1399",
+        "status": "Archived",
+        "description": "Client: Ram Ghatreh | Ali Rahmati",
+        "tags": [
+            "Wordpress",
+            "JavaScript"
+        ],
+        "isFeatured": false
+    },
+    {
+        "id": "cp6",
+        "title": "Ram Ghatreh Engineering Group",
+        "date": "1398",
+        "status": "Archived",
+        "description": "Client: Ali Rahmati",
+        "tags": [
+            "Wordpress",
+            "Custom Theme",
+            "Technical Support"
+        ],
+        "isFeatured": false
+    },
+    {
+        "id": "cp5",
+        "title": "SIJAB",
+        "date": "1398",
+        "status": "Archived",
+        "description": "Client: Dr. Hossein Sharifan",
+        "tags": [
+            "Wordpress",
+            "Website Template Redesign",
+            "Technical Support"
+        ],
+        "isFeatured": false
+    },
+    {
+        "id": "cp4",
+        "title": "Atazis Website, National Environmental Association of Green Life Empowerers",
+        "date": "1398",
+        "status": "Archived",
+        "url": "http://atazis.ir/",
+        "description": "Client: Dr. Kolahi",
+        "tags": [
+            "Wordpress",
+            "Website Template Redesign",
+            "Optimization"
+        ],
+        "isFeatured": false
+    },
+    {
+        "id": "cp3",
+        "title": "Website of the First National-Student Conference on Agriculture, Plant Protection, and Biotechnology",
+        "date": "1397",
+        "status": "Archived",
+        "description": "Client: Agricultural, Plant Protection, and Biotechnology Student Association",
+        "tags": [
+            "Wordpress",
+            "Custom Theme"
+        ],
+        "isFeatured": false
+    },
+    {
+        "id": "cp2",
+        "title": "Website of the Khorasan Razavi Province Sports Associations Board",
+        "date": "1397",
+        "status": "Archived",
+        "description": "Client: Mohammad Hossein Samandari",
+        "tags": [
+            "Wordpress",
+            "Custom Theme"
+        ],
+        "isFeatured": false
+    },
+    {
+        "id": "cp1",
+        "title": "Iranian Society of Saffron Science Website",
+        "date": "1397",
+        "status": "Archived",
+        "description": "Client: Abbas Hemmati Kakhki",
+        "tags": [
+            "Wordpress",
+            "Custom Theme"
+        ],
+        "isFeatured": false
     }
 ]

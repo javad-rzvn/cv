@@ -1,0 +1,171 @@
+[
+    {
+        "id": "xp7",
+        "title": "Hydrotech Toos Consulting Engineers Knowledge-Based Company",
+        "position": "",
+        "description": "",
+        "date": "1399 - 1403",
+        "tags": [],
+        "summaryList": []
+    },
+    {
+        "id": "xp6",
+        "title": "",
+        "position": "Hydroinformatics Specialist",
+        "description": "Project management in the fields of informatics and hydroinformatics, as well as collaboration with experts",
+        "date": "1402 - 1403",
+        "tags": [
+            "On Site",
+            "Python",
+            "Management",
+            "Power BI",
+            "Database"
+        ],
+        "summaryList": [
+            "Data processing and data correction for use in business intelligence dashboards",
+            "Designing and developing business intelligence dashboards using Power BI",
+            "Designing and developing various databases such as MySQL and SQLite for use in business intelligence dashboards",
+            "Developing load testing tools to evaluate the performance of business intelligence dashboards",
+            "Developing various web scrapers for data extraction from different sources",
+            "Designing and implementing custom landing pages for projects.",
+            "Managing programming tasks and interacting with experts for outsourcing certain tasks in the field of informatics",
+            "Development of Python computational cores for the Water Resources Balance system"
+        ]
+    },
+    {
+        "id": "xp6",
+        "title": "",
+        "position": "Full-stack Developer/Data Scientist",
+        "description": "",
+        "date": "1400 - 1401",
+        "tags": [
+            "On Site",
+            "Python",
+            "Excel"
+        ],
+        "summaryList": [
+            "Development of a data processing system for hydrological data for the Water Balance System",
+            "Research and preparation of water balance studies for the Qara Qom Watershed",
+            "Preparation of qualitative reports on water resources and water balance for the Qara Qom watershed",
+            "Performing agricultural and irrigation analysis in the agricultural water productivity system; SABAK"
+        ]
+    },
+    {
+        "id": "xp6",
+        "title": "",
+        "position": "Research Analyst",
+        "description": "",
+        "date": "1399",
+        "tags": [
+            "On Site",
+            "Research",
+            "GIS"
+        ],
+        "summaryList": [
+            "Performing spatial analysis using QGIS",
+            "Generating various maps in line with project objectives"
+        ]
+    },
+    {
+        "id": "xp5",
+        "title": "Yazdanpoor Academy",
+        "position": "Developer & Website Support Specialist",
+        "description": "Technical Support and Website Developer",
+        "date": "1399 - 1402",
+        "tags": [
+            "Remote",
+            "Wordpress",
+            "WooCommerce",
+            "DevOps"
+        ],
+        "summaryList": [
+            "Design and Development of Custom Themes/Templates",
+            "Design and Development of a WooCommerce-Based E-commerce System",
+            "Design and Implementation of Custom Landing Pages",
+            "Integration of Kavé Negar Voice Call System with the Course Registration Form",
+            "Server Configuration and Technical Support"
+        ]
+    },
+    {
+        "id": "xp5",
+        "title": "LearnGIS",
+        "link": "https://learngis.ir/",
+        "position": "Founder - Author & Developer",
+        "description": "QGIS Training and Knowledge Related to GIS Field",
+        "date": "1398 - 1399",
+        "tags": [
+            "GIS",
+            "Remote Sensing",
+            "Author"
+        ],
+        "summaryList": [
+            "Producing Visual Tutorials for QGIS",
+            "Development of a Custom System for Introducing GIS Datasets",
+            "Development of a Custom Web-Based Dictionary for the GIS Field"
+        ]
+    },
+    {
+        "id": "xp4",
+        "title": "Abtech",
+        "position": "Co-Founder - Author, Developer & Website Support Specialist",
+        "description": "Persian Reference for Water Science and Engineering Education",
+        "date": "1396 - 1402",
+        "tags": [
+            "Part-time",
+            "Author",
+            "Wordpress Specialist",
+            "WooCommerce"
+        ],
+        "summaryList": [
+            "Producing Visual Educational Content for Water Science and Engineering",
+            "Development of a Custom System for Introducing Water Sector Companies",
+            "Development of a WooCommerce-Based E-commerce System for Selling User Products",
+            "News Coverage of Events, Textbooks, and Software Related to the Field"
+        ]
+    },
+    {
+        "id": "xp3",
+        "title": "WP Freak",
+        "position": "Founder - Developer & Designer",
+        "description": "WordPress Training and Tips",
+        "date": "1396",
+        "tags": [
+            "Wordpress",
+            "Wordpress Development"
+        ],
+        "summaryList": [
+            "Producing Visual Educational Content for Wordpress"
+        ]
+    },
+    {
+        "id": "xp2",
+        "title": "MybbCo - Hamyar",
+        "position": "Founder - Designer & Developer",
+        "description": "Persian Reference for MyBB Forum Builder",
+        "date": "1392-1395",
+        "tags": [
+            "MyBB",
+            "Plugin Development",
+            "Theme Development"
+        ],
+        "summaryList": [
+            "Producing Content for MyBB in Persian",
+            "Developing MyBB Plugins",
+            "Developing MyBB Themes",
+            "Persian Localization of MyBB Plugins and Themes"
+        ]
+    },
+    {
+        "id": "xp1",
+        "title": "ToolsDL",
+        "position": "Founder",
+        "description": "Website for Learning HTML and CSS Coding",
+        "date": "1391-1394",
+        "tags": [
+            "Wordpress"
+        ],
+        "summaryList": [
+            "Producing Visual Educational Content for Teaching HTML, CSS, and JavaScript"
+        ]
+    }
+]

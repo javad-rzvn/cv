@@ -4,12 +4,12 @@
     </Divider>
 
     <section class="flex min-h-0 flex-col gap-y-3">
-        <h2 class="text-2xl font-bold flex justify-between">
+        <h1 class="text-2xl font-bold flex justify-between">
             {{ project.title }}
             <Badge v-if="project.status === 'Online'" severity="success">{{ project.status }}</Badge>
             <Badge v-else-if="project.status === 'Offline'" severity="danger">{{ project.status }}</Badge>
             <Badge v-else severity="secondary">{{ project.status }}</Badge>
-        </h2>
+        </h1>
 
         <div class="flex text-sm font-mono mt-auto">
             <ul class="flex list-none flex-wrap gap-1 p-0 mt-2">

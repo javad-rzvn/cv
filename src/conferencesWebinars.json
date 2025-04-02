@@ -1,0 +1,39 @@
+[
+    {
+        "id": "default",
+        "title": "Abino Event, the First National Problem-Oriented Event on Social Innovations in Urban Water",
+        "description": "Presentation of the Payar System – An Interactive Platform for Reporting Urban Water Incidents and Monitoring Citizen Behavior",
+        "date": "2024",
+        "tags": [
+            "Urban Water Incidents",
+            "Monitoring Citizen Behavior"
+        ],
+        "summaryList": []
+    },
+    {
+        "id": "rc2",
+        "title": "Evaluation of saffron yield using machine learning and remote sensing techniques in the face of climate change",
+        "description": "In the face of climate change, saffron cultivation is experiencing new challenges. Altered temperature and precipitation patterns, along with the increasing occurrence of extreme weather events, impact saffron yield and quality. Accurate and timely yield estimation is crucial for farmers to adapt their practices and optimize saffron production to mitigate the effects of a changing climate.",
+        "date": "2024",
+        "tags": [
+            "Saffron Yield",
+            "Machine Learning",
+            "Remote Sensing",
+            "Climate Change"
+        ],
+        "summaryList": []
+    },
+    {
+        "id": "rc1",
+        "title": "National conference of practical methods to solve the technical problems of the country's water balance",
+        "description": "The National Conference on Applied Methods for Solving Technical Water Balance Issues in the Country was held on November 21, 2022, in Tehran, organized by the University of Tehran and the Tadbir Ab Think Tank.\nIn this conference, 52 research papers were presented by 194 researchers across key thematic areas.\nThe presented papers primarily focused on topics such as water balance and precipitation, water balance accounting, water resources balance, hydroclimatological balance, geostatistics, remote sensing, and evaporation (Thornthwaite method).",
+        "date": "2022",
+        "tags": [
+            "Water Balance",
+            "Precipitation",
+            "Water Accounting",
+            "Remote Sensing"
+        ],
+        "summaryList": []
+    }
+]

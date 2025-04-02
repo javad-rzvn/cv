@@ -3,31 +3,25 @@
         <div class="py-1">
             <div class="flex flex-col space-y-1.5">
                 <div class="flex items-center justify-between gap-x-2 text-base">
-                    <h3 class="inline-flex items-center justify-center gap-x-1 font-semibold">
-                        <a href="" class="hover:underline">{{ project }}</a>
+                    <h3 class="inline-flex items-center justify-center gap-x-1 font-semibold text-base">
+                        <a v-bind="link ? { href: link } : {}" class="hover:underline">{{ title }}</a>
                         <ul class="list-none p-0 hidden gap-x-1 sm:inline-flex">
-                            <li>
-                                <div
-                                    class="inline-flex items-center rounded-md bg-gray-100 text-xs font-mono px-2 py-0.5 font-semibold transition-colors hover:bg-gray-50">
-                                    Remote
-                                </div>
-                            </li>
-                            <li>
-                                <div
-                                    class="inline-flex items-center rounded-md bg-gray-100 text-xs font-mono px-2 py-0.5 font-semibold transition-colors hover:bg-gray-50">
-                                    Remote
+                            <li v-for="(tag, index) in tags">
+                                <div class="inline-flex items-center rounded-md bg-gray-100
+                                    text-xs font-mono px-2 py-0.5 font-semibold transition-colors hover:bg-gray-50">
+                                    {{ tag }}
                                 </div>
                             </li>
                         </ul>
                     </h3>
                     <div class="text-sm text-gray-500 font-mono">{{ date }}</div>
                 </div>
-                <h4 class="font-mono text-sm font-semibold">{{position}}</h4>
+                <h4 class="font-mono text-sm font-semibold">{{ position }}</h4>
             </div>
             <div class="font-mono text-xs">
-                Leading technical architecture of a blockchain-based film funding platform.
+                {{ description }}
                 <ul class="list-inside list-disc">
-                    <li>Architecting migration from CRA to Next.js for improved performance, SEO, and DX</li>
+                    <li v-for="(summary, index) in summaryList">{{ summary }}</li>
                 </ul>
             </div>
         </div>
@@ -35,5 +29,13 @@
 </template>
 
 <script setup>
-defineProps(['title', 'position', 'tags', 'date', 'description'])
+defineProps({
+    link: String,
+    title: String,
+    position: String,
+    date: String,
+    description: String,
+    tags: Array,
+    summaryList: Array
+})
 </script>

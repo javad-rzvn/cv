@@ -1,15 +1,16 @@
 <template>
     <article class="h-full">
-        <div class="flex h-full flex-col overflow-hidden border rounded-lg p-3 border-gray-300">
+        <div class="relative flex h-full flex-col overflow-hidden border rounded-lg p-3 border-gray-300">
             <div class="flex flex-col space-x-1.5">
                 <div class="space-y-1">
-                    <h3 class="font-semibold text-base">
-                        <router-link class="inline-flex items-center gap-1 hover:underline" :to="link">
+                        <div v-if="status === 'Online'" class="inline-block mr-2 size-1.5 rounded-full bg-green-500"
+                            v-tooltip.top="status"></div>
+                        <div v-else-if="status === 'Offline'" class="inline-block mr-2 size-1.5 rounded-full bg-red-500"
+                            v-tooltip.top="status"></div>
+                        <div v-else class="inline-block mr-2 size-1.5 rounded-full bg-gray-500" v-tooltip.top="status"></div>
+                    <h3 class="inline font-semibold text-base">
+                        <router-link class="hover:underline text-sm" :to="link">
                             {{ title }}
-
-                            <span v-if="status === 'Online'" class="ml-2 size-1.5 rounded-full bg-green-500" v-tooltip="status"></span>
-                            <span v-else-if="status === 'Offline'" class="ml-2 size-1.5 rounded-full bg-red-500" v-tooltip="status"></span>
-                            <span v-else class="ml-2 size-1.5 rounded-full bg-gray-500" v-tooltip="status"></span>
                         </router-link>
                     </h3>
                     <p class="font-mono text-xs">
@@ -27,6 +28,11 @@
                     </li>
                 </ul>
             </div>
+            <router-link :to="link">
+                <a class="block bottom-0 w-full mt-5 font-mono text-xs text-center bg-gray-900 border
+                rounded-border text-white py-1 transition-colors hover:border-1 hover:bg-transparent
+                hover:text-black" :href="link">Click To View Details</a>
+            </router-link>
         </div>
     </article>
 </template>

@@ -1,0 +1,44 @@
+[
+    {
+        "id": "default",
+        "title": "Web-Based Annual Water Balance System: An Intelligent Data-Driven Management Tool",
+        "description": "With the increasing demand for water and the gradual decline in both the quantity and quality of water resources, allocating water based on renewable water availability is essential. Calculating renewable water requires establishing a balance in watersheds. Enhancing the accuracy and speed of water balance calculations can improve decision-making approaches, strengthen program development, monitor water resources, and ultimately support sustainable development.\nTo facilitate access to analytical and management-oriented results while improving the precision and efficiency of balance component calculations, a web-based, spatially integrated water balance system has been designed and implemented. This system consists of data processing, balance component extraction, and an optimization model.\nIn this study, the system was deployed for the Qaraqum watershed and part of the Central Desert watershed (covering six study areas). A comparison of the system's results with the Ministry of Energy's official water balance data for these study areas confirms the system's accuracy. The findings indicate that the water balance system can rapidly estimate balance components while maintaining integration with adjacent watersheds.",
+        "date": "1401",
+        "tags": [
+            "Web-based and location-based system",
+            "Water Balance",
+            "Renewable Water"
+        ],
+        "link": "https://civilica.com/doc/1664450/",
+        "summaryList": []
+    },
+    {
+        "id": "rc2",
+        "title": "The Necessity of Data Processing in Preparing Watershed Water Balances",
+        "description": "In climatic studies, incomplete and unreliable data present challenges to analyses. In meteorological and hydrological studies, there are often data with varying degrees of reliability, incorrect figures, or incomplete data. Therefore, screening, data cleansing, and data completion (imputation) are essential prerequisites for climatic analyses. These issues result in significant time and cost investments in correcting and reconstructing data for different studies, and each study may do so in a different manner, leading to varying results. However, by selecting a standardized method within a unified framework, the database can be refined once and for all, allowing future data to be used consistently. Therefore, a tool called data processing has been incorporated into the water balance system, which includes data uploading, pre-screening, screening, and reconstruction. In the data screening phase, incorrect figures (with obvious errors), or suspicious and unreliable data, often including unusual figures, are identified and corrected or removed. Reconstruction replaces missing or deleted figures. In this study, in order to maximize the benefits of integrating minimal, incomplete, scattered, and uncertain data, the data processing component of the water balance system for the Qara Qom watershed is presented. In this component, raw data is organized into a unified structure and categorized based on the type of variable. Various processing tasks, including data screening, filling missing data, and conducting basic tests, are carried out to ensure the availability of accurate, sufficient, and organized data, which is then stored in the database for future use in water balance studies.",
+        "date": "1401",
+        "tags": [
+            "Incorrect Figures",
+            "Incomplete Data",
+            "Water Balance System",
+            "Data Processing",
+            "Basic Tests"
+        ],
+        "link": "https://civilica.com/doc/1664451/",
+        "summaryList": []
+    },
+    {
+        "id": "rc1",
+        "title": "Zoning of Hydro-Climatic Variables Using a Developmental Method: Error Adjustment of Regional Equation Fitting",
+        "description": "The spatial distribution of hydro-climatic variables varies across different regions based on geographical location, climate, vegetation cover distribution, and temperature fluctuations. However, for regional analysis, only a limited number of data measurement points exist, necessitating logical methods to extrapolate their information across the target area. Therefore, interpolation/extrapolation of data at other points, or in other words, zoning of the data, is essential.\nImproper zoning of variable values can introduce significant errors, sometimes leading to hazardous consequences in studies and planning. This research aims to examine common interpolation methods by integrating statistical approaches with hydrological characteristics to determine the most suitable zoning method.\nIn the proposed developmental method, a regional equation is utilized by incorporating independent variables derived from measurement point characteristics. Additionally, error adjustment is applied to account for variations between stations and mitigate concerns regarding equation fitting errors, ultimately improving the accuracy of spatial data distribution.",
+        "date": "1401",
+        "tags": [
+            "Hydro-climatic Variables",
+            "Spatial Distribution",
+            "Zoning",
+            "Regional Trend Analysis"
+        ],
+        "link": "https://civilica.com/doc/1664449/",
+        "summaryList": []
+    }
+]

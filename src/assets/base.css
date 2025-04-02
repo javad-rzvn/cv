@@ -14,3 +14,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
   margin: 0 auto;
 }
+
+.p-breadcrumb {
+  padding: 0 !important;
+  margin-bottom: 20px;
+}
+
+.p-breadcrumb-item-link, .p-breadcrumb-list {
+  gap: 0 !important;
+}
+
+.awards span.pi {
+  color: oklch(0.905 0.182 98.111);
+}

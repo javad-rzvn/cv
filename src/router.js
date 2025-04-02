@@ -1,9 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import projectRoutes from './projectRoutes';
+import allRoutes from './allRoutes';
 // Import other route modules as needed
 
 const routes = [
-    ...projectRoutes,
+    ...allRoutes,
     // Spread in other route arrays
 ];
 

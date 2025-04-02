@@ -1,0 +1,39 @@
+[
+    {
+        "id": "default",
+        "title": "Ferdowsi University of Mashhad - Hydroinformatics",
+        "description": "Familiarity with concepts and methods of data processing in water.",
+        "date": "2024",
+        "tags": [
+            "Hydrological Models",
+            "Data-driven Models",
+            "Python",
+            "RS & GIS"
+        ],
+        "summaryList": []
+    },
+    {
+        "id": "rc2",
+        "title": "Ferdowsi University of Mashhad - Water Resources Engineering",
+        "description": "The aim of this course is to familiarize students with water resources and to acquire skills in modeling water resources with a focus on reservoir dams.",
+        "date": "2021",
+        "tags": [
+            "Water Resources Systems",
+            "WEAP",
+            "Water Resources Planning"
+        ],
+        "summaryList": []
+    },
+    {
+        "id": "rc1",
+        "title": "Ferdowsi University of Mashhad - Water Resources Engineering",
+        "description": "The aim of this course is to familiarize students with water resources and to acquire skills in modeling water resources with a focus on reservoir dams.",
+        "date": "2020",
+        "tags": [
+            "Water Resources Systems",
+            "WEAP",
+            "Water Resources Planning"
+        ],
+        "summaryList": []
+    }
+]

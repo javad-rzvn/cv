@@ -52,7 +52,7 @@ onMounted(async () => {
     if (project.value) {
 
         try {
-            const response = await fetch(`/projects/${projectId}.md`);
+            const response = await fetch(`${import.meta.env.BASE_URL}/projects/${projectId}.md`);
             // console.log(`Fetching: /projects/${projectId}.md`, response.status);
 
             if (!response.ok) throw new Error('Markdown file not found');

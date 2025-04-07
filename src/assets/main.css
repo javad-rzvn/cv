@@ -5,7 +5,7 @@
 @import "./font.css";
 
 @theme {
-    --breakpoint-xs: 25rem;
+    --breakpoint-xs: 22rem;
 }
 
 @layer base {

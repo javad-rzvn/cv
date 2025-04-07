@@ -1,5 +1,5 @@
 <template>
-  <main class="container mx-auto relative p-16 scroll-my-12">
+  <main class="container mx-auto relative p-16 scroll-my-12 xs:p-4">
     <section class="w-full space-y-8 max-w-5xl mx-auto">
 
       <TopMenu />
@@ -37,7 +37,7 @@
       </Dialog>
 
       <div class="fixed bottom-0 w-full left-0 mx-auto bg-gradient-to-r from-gray-50 via-gray-100 to-gray-50
-        text-center text-sm py-1 z-999 text-gray-500 m-0">
+        text-center text-sm py-1 z-999 text-gray-500 m-0 sm:hidden xs:hidden">
         <span>Press <Tag severity="secondary" value="Ctrl + J" style="font-size: 11px;background-color: oklch(86.9% 0.022 252.894);"></Tag> to open the command
           menu</span>
       </div>

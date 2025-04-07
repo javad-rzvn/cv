@@ -74,7 +74,7 @@
         <article>
             <div
                 class="flex items-center justify-start overflow-hidden rounded-lg p-3 bg-gradient-to-b from-gray-100 to-gray-200 border border-gray-400 space-x-2 py-3">
-                <span class="inline-flex overflow-hidden size-5 text-black">
+                <span class="inline-flex overflow-hidden size-5 text-black xs:size-8 xs:h-full">
                     <i class="pi pi-star-fill"></i>
                 </span>
                 <h3 class="text-start text-black font-mono font-bold">
@@ -86,7 +86,7 @@
         <article>
             <div
                 class="flex items-center justify-start overflow-hidden rounded-lg p-3 bg-gradient-to-b from-gray-100 to-gray-200 border border-gray-400 space-x-2 py-3">
-                <span class="inline-flex overflow-hidden size-5 text-black">
+                <span class="inline-flex overflow-hidden size-5 text-black xs:size-6 xs:h-full">
                     <i class="pi pi-star-fill"></i>
                 </span>
                 <h3 class="text-start text-black font-mono font-bold">
@@ -98,7 +98,7 @@
         <article>
             <div
                 class="flex items-center justify-start overflow-hidden rounded-lg p-3 bg-gradient-to-b from-gray-100 to-gray-200 border border-gray-400 space-x-2 py-3">
-                <span class="inline-flex overflow-hidden size-5 text-black">
+                <span class="inline-flex overflow-hidden size-5 text-black xs:size-15 xs:h-full">
                     <i class="pi pi-star-fill"></i>
                 </span>
                 <h3 class="text-start text-black font-mono font-bold">

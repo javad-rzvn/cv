@@ -10,13 +10,13 @@
                     </div>
                 </AccordionHeader>
                 <AccordionContent>
-                    <p class="m-0 font-medium text-sm font-mono whitespace-pre-line text-justify">{{ research.description }}</p>
+                    <p class="m-0 font-medium text-sm font-mono whitespace-pre-line text-justify xs:text-left">{{ research.description }}</p>
                     <ul class="list-inside list-disc text-xs font-mono">
                         <li v-for="(summary, index) in research.summaryList">{{ summary }}</li>
                     </ul>
-                    <div class="flex mt-5 gap-x-2">
+                    <div class="flex mt-5 gap-x-2 xs:block">
                         <a v-if="research.link" :href="research.link"
-                            class="inline-flex items-center text-[10px] font-mono bg-black rounded-md px-2 text-white m-0.5">View
+                            class="inline-flex items-center text-[10px] font-mono bg-black rounded-md px-2 text-white m-0.5 xs:block xs:p-2 xs:text-center">View
                             Article</a>
                         <ul class="flex list-none flex-wrap gap-x-1 p-0">
                             <li v-for="(tag, index) in research.tags">

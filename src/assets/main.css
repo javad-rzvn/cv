@@ -3,3 +3,13 @@
 @import "primeicons/primeicons.css";
 @import "./base.css";
 @import "./font.css";
+
+@theme {
+    --breakpoint-xs: 25rem;
+}
+
+@layer base {
+    html {
+      color-scheme: light !important;
+    }
+}

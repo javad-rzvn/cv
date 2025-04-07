@@ -3,15 +3,15 @@
         <div class="relative flex h-full flex-col overflow-hidden border rounded-lg p-3 border-gray-300">
             <div class="flex flex-col space-x-1.5">
                 <div class="space-y-1">
-                    <div class="flex justify-between">
+                    <div class="flex justify-between xs:block">
                         <div class="flex items-center">
                             <div v-if="url" class="inline-block mr-2">
                                 <a :href="url" class=" whitespace-nowrap"><i
                                         class="pi pi-external-link" style="font-size: 10px"></i></a>
                             </div>
                             <h3 class="font-semibold inline-flex items-center text-sm">
-                                <a v-if="url" :href="url" class=" whitespace-nowrap">{{ title }}</a>
-                                <a v-else>{{ title }}</a>
+                                <a v-if="url" :href="url" class="whitespace-nowrap xs:whitespace-break-spaces">{{ title }}</a>
+                                <a v-else class="whitespace-nowrap xs:whitespace-break-spaces">{{ title }}</a>
 
                                 <span v-if="status === 'Online'" class="ml-2 size-1.5 rounded-full bg-green-500"
                                     v-tooltip="status"></span>

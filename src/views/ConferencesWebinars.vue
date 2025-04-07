@@ -12,7 +12,7 @@
                         </div>
                     </AccordionHeader>
                     <AccordionContent>
-                        <p class="m-0 font-medium text-sm font-mono whitespace-pre-line text-justify">{{ confWeb.description }}</p>
+                        <p class="m-0 font-medium text-sm font-mono whitespace-pre-line text-justify xs:text-left">{{ confWeb.description }}</p>
                         <ul class="list-inside list-disc text-xs font-mono">
                             <li v-for="(summary, index) in confWeb.summaryList">{{ summary }}</li>
                         </ul>

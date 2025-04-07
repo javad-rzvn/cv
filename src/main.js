@@ -16,7 +16,10 @@ app.use(router);
 app.use(head);
 app.use(PrimeVue, {
     theme: {
-        preset: Aura
+        preset: Aura,
+        options: {
+            darkModeSelector: false || 'none',
+        }
     }
 });
 app.directive('tooltip', Tooltip);

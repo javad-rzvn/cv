@@ -30,6 +30,10 @@
             border border-gray-300 size-8 hover:bg-gray-50" href="https://x.com/javad_rzvn">
                 <i class="pi pi-twitter"></i>
             </a>
+            <a class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm transition-colors
+            border border-gray-300 size-8 hover:bg-gray-50" href="https://scholar.google.com/citations?user=UetO8_cAAAAJ">
+                <IconGoogleScholar />
+            </a>
         </div>
     </div>
     <span class="rounded-xl relative flex shrink-0 size-28 overflow-hidden">
@@ -40,6 +44,7 @@
 <script setup>
 import { computed } from 'vue';
 import { useRoute } from 'vue-router';
+import IconGoogleScholar from './icons/IconGoogleScholar.vue';
 
 const route = useRoute();
 const isHome = computed(() => route.path === '/'); // Check if it's the home page

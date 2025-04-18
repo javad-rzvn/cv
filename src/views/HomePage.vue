@@ -79,8 +79,8 @@
   <section class="flex min-h-0 flex-col gap-y-3">
     <h2 class="text-xl font-bold">Projects</h2>
     <div class="grid grid-cols-1 gap-3 lg:grid-cols-3 md:grid-cols-2">
-      <SideProject v-for="project in featuredProjects" :key="project.id" :title="project.title" :status="project.status"
-        :link="`/projects/${project.id}`" :description="project.description" :tags="project.tags" />
+      <SideProject v-for="project in featuredProjects" :key="project.id" :id="project.id" :title="project.title"
+        :status="project.status" :description="project.description" :tags="project.tags" />
     </div>
   </section>
 </template>

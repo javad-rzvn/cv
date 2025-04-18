@@ -3,13 +3,15 @@
         <div class="relative flex h-full flex-col overflow-hidden border rounded-lg p-3 border-gray-300">
             <div class="flex flex-col space-x-1.5">
                 <div class="space-y-1">
-                        <div v-if="status === 'Online'" class="inline-block mr-2 size-1.5 rounded-full bg-green-500"
-                            v-tooltip.top="status"></div>
-                        <div v-else-if="status === 'Offline'" class="inline-block mr-2 size-1.5 rounded-full bg-red-500"
-                            v-tooltip.top="status"></div>
-                        <div v-else class="inline-block mr-2 size-1.5 rounded-full bg-gray-500" v-tooltip.top="status"></div>
+                    <div v-if="status === 'Online'" class="inline-block mr-2 size-1.5 rounded-full bg-green-500"
+                        v-tooltip.top="status"></div>
+                    <div v-else-if="status === 'Offline'" class="inline-block mr-2 size-1.5 rounded-full bg-red-500"
+                        v-tooltip.top="status"></div>
+                    <div v-else class="inline-block mr-2 size-1.5 rounded-full bg-gray-500" v-tooltip.top="status">
+                    </div>
                     <h3 class="inline font-semibold text-base">
-                        <router-link class="hover:underline text-sm" :to="link">
+                        <router-link class="hover:underline text-sm"
+                            :to="{ name: 'ProjectDetail', params: { id: id } }">
                             {{ title }}
                         </router-link>
                     </h3>
@@ -28,19 +30,19 @@
                     </li>
                 </ul>
             </div>
-            <router-link :to="link">
-                <a class="block bottom-0 w-full mt-5 font-mono text-xs text-center bg-gray-900 border
+            <router-link :to="{ name: 'ProjectDetail', params: { id: id } }" class="block bottom-0 w-full mt-5 font-mono text-xs text-center bg-gray-900 border
                 rounded-border text-white py-1 transition-colors hover:border-1 hover:bg-transparent
-                hover:text-black" :href="link">Click To View Details</a>
+                hover:text-black">
+                Click To View Details
             </router-link>
         </div>
     </article>
 </template>
 
 <script setup>
-defineProps({
+const props = defineProps({
+    id: String,
     title: String,
-    link: String,
     description: String,
     tags: Array,
     status: String,

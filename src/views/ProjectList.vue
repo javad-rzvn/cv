@@ -6,7 +6,7 @@
         </Divider>
         <div class="grid grid-cols-1 gap-3 lg:grid-cols-2 md:grid-cols-1">
             <div v-for="project in featuredProjects" :key="project.id">
-                <SideProject :title="project.title" :status="project.status" :link="`/projects/${project.id}`"
+                <SideProject :id="project.id" :title="project.title" :status="project.status"
                     :description="project.description" :tags="project.tags" />
             </div>
         </div>

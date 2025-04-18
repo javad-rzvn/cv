@@ -1,6 +1,20 @@
 [
     {
         "id": "default",
+        "title": "Estimation of saffron yield using machine learning and remote sensing techniques in the face of climate change",
+        "description": "Accurately estimating saffron yield is crucial for agricultural planning and managing this valuable product. The objectives of this study encompass developing a robust model utilizing meteorological and satellite data to predict saffron yield, assessing the integration of Sentinel-2 and Landsat-8 imagery, establishing a predictive framework, selecting suitable machine learning algorithms, and computing various vegetation indices. \nThe methodology employed involves calculating vegetation indices (such as NDVI, and EVI) from satellite images (Sentinel-2, Landsat 7 and 8), merging them with meteorological data, and employing machine learning algorithms for predictive analysis. Through correlation analysis, the most influential factors affecting saffron performance were identified. Evaluation of the models generated during the testing phase revealed that the coefficient of determination (R2) values indicate the model's accuracy. By analyzing the top-performing models, it was determined that the most effective saffron yield estimation model incorporates three datasets: vegetation indices, geographical information, and meteorological data, leading to a more precise and reliable estimate. This model serves as a comprehensive biomass and yield predictor for saffron, identifying key variables influencing yield and offering a dependable forecast for arid regions with limited meteorological data.",
+        "date": "1403",
+        "tags": [
+            "Saffron",
+            "Machine learning",
+            "Remote sensing",
+            "Climate change"
+        ],
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UetO8_cAAAAJ&authuser=2&citation_for_view=UetO8_cAAAAJ:u5HHmVD_uO8C",
+        "summaryList": []
+    },
+    {
+        "id": "rc3",
         "title": "Web-Based Annual Water Balance System: An Intelligent Data-Driven Management Tool",
         "description": "With the increasing demand for water and the gradual decline in both the quantity and quality of water resources, allocating water based on renewable water availability is essential. Calculating renewable water requires establishing a balance in watersheds. Enhancing the accuracy and speed of water balance calculations can improve decision-making approaches, strengthen program development, monitor water resources, and ultimately support sustainable development.\nTo facilitate access to analytical and management-oriented results while improving the precision and efficiency of balance component calculations, a web-based, spatially integrated water balance system has been designed and implemented. This system consists of data processing, balance component extraction, and an optimization model.\nIn this study, the system was deployed for the Qaraqum watershed and part of the Central Desert watershed (covering six study areas). A comparison of the system's results with the Ministry of Energy's official water balance data for these study areas confirms the system's accuracy. The findings indicate that the water balance system can rapidly estimate balance components while maintaining integration with adjacent watersheds.",
         "date": "1401",
